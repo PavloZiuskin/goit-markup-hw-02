@@ -1,0 +1,296 @@
+:root {
+/* Fonts */
+--main-fonts: 'Roboto', sans-serif;
+--secondary-fonts: 'Raleway', sans-serif;
+/* Color text */
+--main-text-color: #212121;
+--acsent-text-color: #2196F3;
+--blak-text-color: #000000;
+--white-text-color: #ffffff;
+--secondary-text-color: #757575;
+--footer-rgba-coor: rgba(255, 255, 255, 0.6);
+
+
+/* Color bgc */
+--main-bgc-color: #ffffff;
+--foot-bgc-color: #2F303A; 
+--main-btn-bgc: #F5F4FA;
+--acsent-btn-bgc: #2196F3;
+
+
+/* Outher var */
+--main-btn-color: #212121;
+--acsent-btn-color: #ffffff;
+
+}
+
+
+
+
+.page,
+.page-1{        
+        background-color: var(--main-bgc-color);
+    font-family: var(--main-fonts);
+    font-size: 14px;
+    font-style: normal;
+    color: var(--main-text-color);
+    
+}
+.link { text-decoration: none;}
+.list { list-style: none;    
+}
+/* header */
+.header {}
+
+/* nav */
+.header-nav {}
+
+/* logo */
+.header-logo {
+        font-family: var(--secondary-fonts);
+        font-size: 26px;
+        line-height: calc(31 / 26);
+        letter-spacing: 0.03em;
+        color: var(--acsent-text-color);
+}
+.header-text {
+    font-family: var(--secondary-fonts);
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--blak-text-color);
+}
+
+
+/* header list */
+.header-list {
+        font-weight: 500;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+
+/* header items */
+.header-items>{
+        
+}
+
+/* header item */
+.header-link {
+        font-weight: 500;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+          color: var(--main-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+        color: var(--acsent-text-color);
+}
+
+/* header-contacts */
+.header-contacts>a {
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+.header-contacts>a:hover,
+.header-contacts>a:focus {
+        color: var(--acsent-text-color);
+}
+
+/* HERO */
+.hero {
+        background-color: var(--foot-bgc-color);
+        width: 1600px;
+}
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: calc(60 / 44);
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--white-text-color);
+}
+.hero-button {
+        background-color: var(--main-btn-bgc);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: calc(30 / 16);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--main-text-color);
+        cursor: pointer;
+}
+.hero-button:active,
+.hero-button:hover,
+.hero-button:focus {
+        background-color: var(--acsent-btn-bgc);
+        color: var(--acsent-btn-color);
+}
+/* H2-section title */
+.section-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42 / 36);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-text-color);
+}
+
+/* advantage */
+
+.advantage-section {
+        width: 1170px;
+}
+.advantage-section-item {
+        width: 270px;
+}
+.advantage-section-subtitle {
+        font-weight: 700;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--main-text-color);
+}
+.advantage-section-text {
+        font-weight: 400;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+}
+
+/* WORKING */
+.working-section {
+        width: 1170px;
+
+}
+.working-section-item {
+
+}
+.working-section-list {
+
+}
+
+.working-section-img {
+
+}
+
+/* TEAM */
+.team-section {
+        width: 1600px;
+}
+.team-section-item {}
+.team-section-list {}
+.team-section-img {}
+.team-section-subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(19 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-text-color);}
+.team-section-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(19 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);}
+/* end page */
+/* Page 2 */
+.portfolio-section
+
+.portfolio-title {
+
+}
+
+.filter-list
+
+/* FILTER BUTTON */
+.filter-button {
+        background-color: var(--main-btn-bgc);
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-btn-color);
+        cursor: pointer;
+}
+.filter-button:active,
+.filter-button:focus,
+.filter-button:hover {
+        background-color: var(--acsent-btn-bgc);
+        color: var(--acsent-btn-color);
+}
+
+
+.portfolio-list
+.portfolio-subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36 / 18);
+        letter-spacing: 0.06em;
+        color: var(--main-text-color);
+}
+.portfolio-item
+.portfolio-img
+.portfolio-text, .text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+        letter-spacing: 0.03em;
+
+        color: #757575;
+}
+
+/* FOOTER */
+.footer {
+        background-color: var(--foot-bgc-color);
+        width: 1600px;
+        
+}
+.footer-add{}
+.footer-item{}
+
+.footer-text {
+        font-size: 24px;
+        line-height: calc(31 / 24);
+        letter-spacing: 0.03em;
+        color: var(--white-text-color);
+}
+
+
+
+.contacts-footer-link {
+        font-weight: 400;
+        font-style: normal;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+        color: var(--footer-rgba-coor);
+}
+.contacts-footer-link:hover,
+.contacts-footer-link:focus {
+        color: var(--acsent-text-color);
+}
+.footer-link {
+        font-weight: 400;
+        font-style: normal;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+        color: var(--white-text-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+        color: var(--acsent-text-color);
+}
+
+
